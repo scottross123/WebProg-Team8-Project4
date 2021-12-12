@@ -4,7 +4,7 @@ session_start();
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>clear shopcar</title>
+    <title>Clear shopping cart</title>
 </head>
 <body>
 <?php
@@ -25,9 +25,9 @@ $sql = "DELETE FROM cars WHERE username='$user'";
 if ($conn->query($sql) === TRUE) {
     echo "You have delete you order!";
 } else {
-    echo "Error dropping album table: ";
+    echo "Error dropping table: ";
 };
 ?>
-<a href="./mainpage.php"><input type="button" value="back to main page"></a>
+<a href="./mainpage.php"><input type="button" value="Back to main page"></a>
 </body>
 </html>

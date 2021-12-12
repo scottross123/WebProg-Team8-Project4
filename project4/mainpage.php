@@ -48,7 +48,7 @@ if (isset($_SESSION['username'])) {
 }
 ?>
 <br>
-<a href="login.php"><input type="button" value="sign out"></a> <a href="shopcar.php"><input type="button" value="My shop car"></a>
+<a href="login.php"><input type="button" value="Sign out"></a> <a href="shopcar.php"><input type="button" value="My shopping cart"></a>
 
 <div>
 <h1>Rental Cars provided by your Travel Agent!</h1>
@@ -60,8 +60,7 @@ if (isset($_SESSION['username'])) {
 </ul>
 <div id="summary">
  <h1>Summary</h1>
-<p>bababababababababbababababa</p>
-<p>  ababaabababababaabababa.</p>
+<p><a href="Summary.html">Click me!</a></p>
 </div>
 <br></br>
 <br></br>

@@ -51,11 +51,11 @@ if (isset($_SESSION['username'])) {
 <a href="login.php"><input type="button" value="sign out"></a> <a href="shopcar.php"><input type="button" value="My shop car"></a>
 
 <div>
-<h1>Rental cars</h1>
+<h1>Rental Cars provided by your Travel Agent!</h1>
 <ul>
-<li><a href="#summary">Summery</a></li>
+<li><a href="#summary">Summary</a></li>
 <li><a aria-current="true" href="#stf">Enjoy</a></li>
-<li><a href="#Thecars">The cars</a></li>
+<li><a href="#Thecars">The Cars</a></li>
 <li><a href="./Profile.php">Profile</a></li>
 </ul>
 <div id="summary">
@@ -67,9 +67,8 @@ if (isset($_SESSION['username'])) {
 <br></br>
 <br></br>
 <div id="stf">
-<h1>Enjoy</h1>
-<p>abaababababababababab</p>
-<p> ababababababababababababababababa </p>
+<h1>Enjoy!</h1>
+<p>We wish you the best experience possible.</p>
 <br></br>
 <br></br>
 <br></br>
@@ -98,7 +97,18 @@ if (isset($_SESSION['username'])) {
 <input type="submit" value="Order" >
 </div>
 </form>
+<form action="./parking.php" method="post">
+<div class=""><img src="./parking.jpeg" alt="700" width="700px" height="400px">
+<br></br>
+<input type="submit" value="Order Parking" >
+</div>
+</form>
         </div>
         </div>
+
+
+</form>
+
+
 </body>
 </html>

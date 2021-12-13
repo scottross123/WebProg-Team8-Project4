@@ -33,7 +33,7 @@ if(!empty($_POST['username'])){
     }else{
         if($password==$assoc['password']){
             $_SESSION['username']=$username;
-            header('Location:mainpage.php');
+            header('Location:loginSuccess.php');
         }else{
             echo "<script>alert('wrong password！')</script>";
         }

@@ -22,7 +22,7 @@ session_start();
 require("lineMysql.php");
 
 if(!empty($_POST['username'])){
-    $username = $_POST['username'];
+    $username = $_POST['username'] ;
     $password = $_POST['password1'];
     $email = $_POST['email'];
     $age = $_POST['age'];
